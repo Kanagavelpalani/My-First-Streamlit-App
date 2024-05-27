@@ -34,7 +34,7 @@ my_data_row = my_cur.fetchone()
 streamlit.text("Fruit List Contains:")
 streamlit.text(my_data_row)
 
-my_cur.execute("SELECT * from fruit_load_list")
+my_cur.execute("SELECT * from FRUITYVICE_ALL")
 my_data_row = my_cur.fetchone()
 streamlit.header("Fruit List Contains:")
 streamlit.dataframe(my_data_row)
